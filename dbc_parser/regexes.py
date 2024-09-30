@@ -1,0 +1,5 @@
+CAN_MSG_REGEX = r"^(BO_\s.*\n)((?:\s+SG_.*)*)"
+BU_REGEX = r"^(BU_:\s(.*))"
+BO_TX_BU_REGEX = r"^(?:BO_TX_BU_\s)(.*);$"
+CM_REGEX = r"^(?:CM_\s)(.*);$"
+VAL_REGEX = r"^(?:VAL_\s)(.*);$"
